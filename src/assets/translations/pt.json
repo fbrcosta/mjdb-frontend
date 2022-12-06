@@ -1,0 +1,489 @@
+{
+	"yes": "Sim",
+	"no": "Não",
+	"LoginView": {
+		"signin": "Entrar",
+		"username": "Utilizador",
+		"password": "Palavra-Passe",
+		"remember": "Lembrar-me",
+		"signin_button": "ENTRAR"
+	},
+	"Sidebar": {
+		"logout": "Fechar Sessão",
+		"dashboard": "Painel Estatístico",
+		"patients": "Pacientes",
+		"new_patient": "Novo Paciente"
+	},
+	"NewPatientView": {
+		"patient_info": "Informação do Paciente",
+		"autonomy": "Autonomia (Escala de Katz)",
+		"hospitalization": "Hospitalização",
+		"diagnostics": "Diagnósticos",
+		"comorbidity": "Comorbidade de Charlson",
+		"avc": "AVC",
+		"pneumonia": "Pneumonia",
+		"infections": "Infeções",
+		"complications": "Intercorrências",
+		"cardiac_insufficiency": "Insuficiência Cardíaca",
+		"vni": "VNI",
+		"old": "OLD",
+		"procedures": "Procedimentos",
+		"final_notes": "Notas Finais",
+		"back" : "Anterior",
+		"next" : "Seguinte",
+		"submit" : "Submeter",
+		"add_success": "Paciente adicionado com sucesso",
+		"add_error": "Erro ao adicionar o paciente",
+		"add_incomplete": "Faltam preencher campos"
+	},
+	"PatientsView": {
+		"patient_info": "Informação do paciente",
+		"id" : "#",
+		"discharge_date" : "Data alta",
+		"processid" : "Processo",
+		"age" : "Idade",
+		"main_diagnostic" : "Diagnóstico principal",
+		"hospitalization" : "Internamento",
+		"states" : "Estados",
+		"day": "dia",
+		"days": "dias",
+		"hs_result": {
+			"1": "Óbito",
+			"0": "Alta"
+		}, 
+		"katz" : "Katz resultado",
+		"katz_designation": {
+			"Total dependency": "Dependência Total",
+			"Serious dependency": "Dependência grave",
+			"Morerate dependency": "Dependência moderada",
+			"Slight dependency": "Dependência ligeira",
+			"No dependency": "Sem dependência"
+		},
+		"cci" : "CCI",
+		"cci_survival" : "Sobrevicêcia",
+		"avc" : "AVC",
+		"pneumonia" : "Pneumonia",
+		"pneumonia_score" : "Curb65",
+		"pneumonia_designation": {
+			"Low mortality - outpatient" : "Mortalidade baixa - ambulatório",
+			"Intermediate mortality - hospitalization" : "Mortalidade intermédia - internar",
+			"High mortality - severe pneumonia" : "Mortalidade alta - pneumonia grave"
+		},
+		"infections" : "Infeções",
+		"cardiac_insufficiency" : "Insuficiência cardíaca",
+		"delete_confirm": "Tem a certeza que pretende eliminar este paciente?",
+		"delete_success": "Paciente eliminado com sucesso",
+		"delete_error": "Erro ao eliminar o paciente",
+		"edit": "Ver e/ou editar informação do paciente",
+		"delete": "Eliminar paciente",
+		"all": "Todos",
+		"year1": "1 Ano",
+		"year2": "2 Ano",
+		"year3": "3 Ano",
+		"year4": "4 Ano",
+		"year5": "5 Ano"
+	},
+	"InfoPanel": {
+		"processid": "Processo",
+		"name": "Nome",
+		"gender": "Género",
+		"male": "Masculino",
+		"female": "Feminino",
+		"age": "Idade",
+		"institution": "Institucionalização"
+	},
+	"AutonomyPanel": {
+		"dependent": "Dependente",
+		"independent": "Independente",
+		"bath": "Banho",
+		"dress": "Vestir",
+		"sanitary": "Sanitários",
+		"movement": "Movimentação",
+		"sphincters": "Esfíncteres",
+		"food": "Alimentação",
+		"score": "Katz resultado",
+		"designation": "Katz designação",
+		"total_dependency": "Dependência total",
+		"serious_dependency": "Dependência grave",
+		"moderate_dependency": "Dependência moderada",
+		"slight_dependency": "Dependência ligeira",
+		"no_dependency": "Sem dependência"
+	},
+	"HospitalizationPanel": {
+		"discharge": "Alta",
+		"death": "Óbito",
+		"provenance": "Proveniência",
+		"start_date": "Data de internamento",
+		"clinic_discharge": "Data de alta clínica",
+		"clinic_duration": "Duração de internamento",
+		"social": "Caso social",
+		"real_discharge": "Data de alta definitiva",
+		"real_duration": "Duração de internamento definitiva",
+		"previous_hospitalization": "Internamento prévio",
+		"cause": "Causa",
+		"rehospitalization": "Reinternamento na medicina",
+		"result": "Resultado",
+		"destination": "Destino",
+		"day": "dia",
+		"days": "dias"
+	},
+	"DiagnosticsPanel": {
+		"principal_diagnostic": "Diagnóstico principal",
+		"secundary_diagnostics": "Diagnóstico secundários",
+		"secundary_diagnostic": "Diagnóstico secundário",
+		"icd10": "ICD10",
+		"add": "Adicionar"
+	},
+	"ComorbidityPanel": {
+		"eam": "EAM (incluindo história)",
+		"icc": "ICC",
+		"peripheral_vascular": "Doença vascular periférica (incluindo aneurisma Ao >=6)",
+		"cerebrovascular": "Doença cerebrovascular (AVC com ou sem sequelas e AIT)",
+		"insanity": "Demência",
+		"chronic_lung": "Doença pulmonar crónica",
+		"connective_tissue": "Doença do tecido conjuntivo",
+		"dyspeptic_ulcerative": "Doença dispeptica/ulcerosa",
+		"mild_liver": "Doença hepática ligeira (sem HTP, inclui hepatite crónica)",
+		"diabetes_wo_organ_inj": "Diabetes sem lesão órgão alvo (exclui doença controlada por dieta)",
+		"hemiplegia": "Hemiplegia",
+		"modsev_kidney": "Doença renal moderada a grave",
+		"diabetes_w_organ_inj": "Diabetes com lesão órgão alvo (retinopatia, neuropatia, nefropatia, de difícil controlo)",
+		"tumor_wo_metastases": "Tumor sem metastases (exclui se diagnostico >5 anos)",
+		"leukemia": "Leucemia (aguda ou crónica)",
+		"lymphoma": "Linfoma",
+		"modsev_liver": "Doença hepática moderada a grave",
+		"tumor_w_metastases": "Tumor sólido com metasteses",
+		"hiv": "SIDA (não apenas HIV positivo)",
+		"score" : "CCI resultado",
+		"survival" : "CCI sobrevivência"
+	},
+	"AvcPanel": {
+		"has_avc": "AVC",
+		"greenway": "Via Verde",
+		"symptoms_hours" : "Horas estimadas desde inicio dos sintomas",
+		"localization" : "Localização",
+		"treatment" : "Tratamento",
+		"thrombolysis" : "Trombólise",
+		"endovascular" : "Endovascular",
+		"conservative" : "Conservador",
+		"probable_etiology" : "Provável etilogia",
+		"sequels" : "Sequelas"
+	},
+	"PneumoniaPanel": {
+		"has_pneumonia": "Pneumonia",
+		"confusion": "Confusão",
+		"urea" : "Ureia >50 mg/dL",
+		"breathing" : "Respiração >= 30 comm",
+		"paspad" : "PAS < 90 e PAD < 60 mmHg",
+		"curb65_result" : "CURB 65 resultado",
+		"curb65_designation" : "CURB 65 designação",
+		"curb65_designation_values": {
+			"low" : "Mortalidade baixa – ambulatório",
+			"intermediate" : "Mortalidade intermédia - internar",
+			"high" : "Mortalidade alta - pneumonia grave"
+		}
+	},
+	"InfectionsPanel": {
+		"has_infections": "Infeção",
+		"intercorrence": "Intercorrência",
+		"sepsis": "Sépsis",
+		"empirical_antibiotic": "Antibiótico empírico",
+		"agent_isolation": "Isolamento de agente",
+		"agent": "Agente",
+		"local": "Local de isolamento",
+		"resistences": "Resistências",
+		"change_antibiotic": "Mudança de antibiótico",
+		"antibiotic": "Antibiótico",
+		"duration": "Duração do antibiótico",
+		"finish_home": "Término do antibiótico no domicílio",
+		"more_infections": "Mais que uma infeção",
+		"infection_count": "Número de infeções",
+		"infection": "Infeção",
+		"remove": "Remover",
+		"add": "Adicionar"
+	},
+	"ComplicationsPanel": {
+		"has_complications": "Intercorrência não infeciosa",
+		"name": "Nome"
+	},
+	"CardiacInsufficiencyPanel": {
+		"has_cardiac_insufficiency": "Insuficiência Cardíaca",
+		"probable_etiology": "Provável etilogia",
+		"acute": "Aguda",
+		"motive": "Motivo",
+		"stratification": "Estratificação IC",
+		"nyha_i": "Classe NYHA I",
+		"nyha_ii": "Classe NYHA II",
+		"nyha_iii": "Classe NYHA III",
+		"nyha_iv": "Classe NYHA IV",
+		"feve": "FEVE",
+		"preserved" : "Preservada",
+		"intermediate" : "Intermédia",
+		"reduced" : "Reduzida",
+		"bnp": "BNP",
+		"to_do": "A fazer",
+		"introduced": "Introduzido",
+		"ieca": "IECA",
+		"blocking_beta": "Beta Bloqueante",
+		"ara": "ARA",
+		"spironolactone": "Espironolactona",
+		"sacubitril_valsartan": "Sacubitril/Valsatran",
+		"ivabradine": "Ivabradina",
+		"diuretics": "Diuréticos",
+		"treatments_response": "Resposta aos tratamentos"
+	},
+	"VniPanel": {
+		"has_vni": "VNI",
+		"motive": "Motivo"
+	},
+	"OldPanel": {
+		"has_old": "Necessidade de OLD"
+	},
+	"ProceduresPanel": {
+		"procedures": "Procedimentos"
+	},
+	"FinalNotesPanel": {
+		"final_notes": "Notas Finais"
+	},
+	"StatisticsPanel": {
+		"all": "Todos",
+		"year1": "1 Ano",
+		"year2": "2 Ano",
+		"year3": "3 Ano",
+		"year4": "4 Ano",
+		"year5": "5 Ano",
+		"prev": "Anterior",
+		"next": "Próximo",
+		"age": "Idades dos doentes",
+		"genders": "Géneros dos doentes",
+		"katz": "Dependência",
+		"provenance": "Proveniência",
+		"hospitalizations_clinic": "Duração do internamento (alta clínica)",
+		"hospitalizations_real": "Duração do internamento (alta efetiva)",
+		"socials": "Casos sociais",
+		"rehospitalizations": "Reinternamentos",
+		"destinations": "Destino dos doentes",
+		"diagnosticsng": "Distriuição dos diagnósticos por grupo nosológico",
+		"diagnosticsicdi": "Diagnósticos no grupo nosológico I",
+		"diagnosticsicdii": "Diagnósticos no grupo nosológico II",
+		"diagnosticsicdiii": "Diagnósticos no grupo nosológico III",
+		"diagnosticsicdiv": "Diagnósticos no grupo nosológico IV",
+		"diagnosticsicdv": "Diagnósticos no grupo nosológico V",
+		"diagnosticsicdvi": "Diagnósticos no grupo nosológico VI",
+		"diagnosticsicdvii": "Diagnósticos no grupo nosológico VII",
+		"diagnosticsicdviii": "Diagnósticos no grupo nosológico VIII",
+		"diagnosticsicdix": "Diagnósticos no grupo nosológico IX",
+		"diagnosticsicdx": "Diagnósticos no grupo nosológico X",
+		"diagnosticsicdxi": "Diagnósticos no grupo nosológico XI",
+		"diagnosticsicdxii": "Diagnósticos no grupo nosológico XII",
+		"diagnosticsicdxiii": "Diagnósticos no grupo nosológico XIII",
+		"diagnosticsicdxiv": "Diagnósticos no grupo nosológico XIV",
+		"diagnosticsicdxv": "Diagnósticos no grupo nosológico XV",
+		"diagnosticsicdxvi": "Diagnósticos no grupo nosológico XVI",
+		"diagnosticsicdxvii": "Diagnósticos no grupo nosológico XVII",
+		"diagnosticsicdixviii": "Diagnósticos no grupo nosológico XVIII",
+		"diagnosticsicdxix": "Diagnósticos no grupo nosológico XIX",
+		"diagnosticsicdxx": "Diagnósticos no grupo nosológico XX",
+		"diagnosticsicdxxi": "Diagnósticos no grupo nosológico XXI",
+		"diagnosticsicdxxii": "Diagnósticos no grupo nosológico XXII"
+	},
+	"AgesPanel": {
+		"average": "Média",
+		"median": "Mediana",
+		"max": "Mais idoso",
+		"min": "Mais jovem",
+		"update": "Atualizado às"
+	},
+	"AgeDistribution": {
+		"title": "Distriuição das idades por faixas etárias",
+		"male": "Masculino",
+		"female": "Feminino",
+		"age": "Idade",
+		"population": "Doentes"
+	},
+	"AgeBoxPlot": {
+		"title": "Variação das idades dos doentes",
+		"category": "Variação",
+		"age": "Idade",
+		"all": "Geral",
+		"male": "Masculino",
+		"female": "Feminino"
+	},
+	"GendersPanel": {
+		"metric": "Número de doentes"
+	},
+	"GenderPiePlot": {
+		"title": "Quotas do género dos doentes",
+		"male": "Masculino",
+		"female": "Feminino"
+	},
+	"GenderBarPlot": {
+		"title": "Distribuição do género dos doentes",
+		"male": "Masculino",
+		"female": "Feminino",
+		"gender": "Género"
+	},
+	"AutonomyBoxPlot": {
+		"title": "Variação da Pontução da Autonomia (Katz) dos doentes",
+		"category": "Variação",
+		"autonomy": "Autonomia - Pontução (Katz)",
+		"all": "Geral",
+		"male": "Masculino",
+		"female": "Feminino"
+	},
+	"AutonomyBarPlot": {
+		"katz_designation": {
+			"Total dependency": "Dependência Total",
+			"Serious dependency": "Dependência grave",
+			"Morerate dependency": "Dependência moderada",
+			"Slight dependency": "Dependência ligeira",
+			"No dependency": "Sem dependência"
+		},
+		"title": "Distriuição da Pontução da Autonomia (Katz) dos doentes",
+		"all": "Geral",
+		"male": "Masculino",
+		"female": "Feminino"
+	},
+	"ProvenancePiePlot": {
+		"title": "Quotas da proveniência dos doentes"
+	},
+	"ProvenanceBarPlot": {
+		"title": "Distriuição da proveniência dos doentes",
+		"provenance": "Proveniência"
+	},
+	"HospitalizationsClinicPanel": {
+		"average": "Média",
+		"median": "Mediana",
+		"max": "Mais longo",
+		"min": "Mais curto"
+	},
+	"HospitalizationBoxPlot": {
+		"title": "Variação da duração do internamento",
+		"category": "Variação",
+		"duration": "Duração (dias)",
+		"all": "Geral",
+		"male": "Masculino",
+		"female": "Feminino"
+	},
+	"HospitalizationsRealPanel": {
+		"average": "Média",
+		"median": "Mediana",
+		"max": "Mais longo",
+		"min": "Mais curto"
+	},
+	"SocialsPanel": {
+		"patients_chart": "Pacientes em caso social",
+		"durations_chart": "Dias de internamento de caso social",
+		"patients": "Pacientes",
+		"duration": "Dias de internamento",
+		"min": "Internamento caso social mais curto",
+		"max": "Internamento caso social mais longo",
+		"average": "Internamento caso social médio",
+		"unit": "dias"
+	},
+	"SocialsSemiCirclePlot": {
+		"social": "Social",
+		"notsocial": "Normal",
+		"total": "Total"
+	},
+	"RehospitalizationsPanel": {
+		"general": "Geral",
+		"male": "Masculino",
+		"female": "Feminino",
+		"patients_rehospitalized": "Reinternamentos"
+	},
+	"RehospitalizationSemiCirclePlot": {
+		"rehospitalized": "Reinternamentos",
+		"notrehospitalized": "Internamento",
+		"total": "Total"
+	},
+	"DestinationsPanel": {
+		"patients_chart": "Resultado do internamento",
+		"patients": "Alta"
+	},
+	"DestinationsPiePlot": {
+		"title": "Quotas dos destino dos doentes"
+	},
+	"DestinationsBarPlot": {
+		"title": "Distribuição dos destino dos doentes",
+		"destination": "Número de doentes"
+	},
+	"DestinationsSemiCirclePlot": {
+		"discharge": "Alta",
+		"death": "Óbitos",
+		"total": "Total"
+	},
+	"DiagnosticsngPanel": {
+		"group": "Grupo nosológico",
+		"principal": "Principal",
+		"secundary": "Secundário",
+		"total": "Total",
+		"title": "Distribuição dos diagnósticos",
+		"i": "Cap. I - Algumas doenças infecciosas e parasitárias",
+		"ii": "Cap. II - Neoplasmas (tumores)",
+		"iii": "Cap. III - Doenças do sangue e dos órgãos hematopoéticos e alguns transtornos imunitários",
+		"iv": "Cap. IV - Doenças endócrinas, nutricionais e metabólicas",
+		"v": "Cap. V - Transtornos mentais e comportamentais",
+		"vi": "Cap. VI - Doenças do sistema nervoso",
+		"vii": "Cap. VII - Doenças do olho e anexos",
+		"viii": "Cap. VIII - Doenças do ouvido e da apófise mastoide",
+		"ix": "Cap. IX - Doenças do aparelho circulatório",
+		"x": "Cap. X - Doenças do aparelho respiratório",
+		"xi": "Cap. XI - Doenças do aparelho digestivo",
+		"xii": "Cap. XII - Doenças da pele e do tecido subcutâneo",
+		"xiii": "Cap. XIII - Doenças do sistema osteomuscular e do tecido conjuntivo",
+		"xiv": "Cap. XIV - Doenças do aparelho geniturinário",
+		"xv": "Cap. XV - Gravidez, parto e puerpério",
+		"xvi": "Cap. XVI - Algumas afecções originadas no período perinatal",
+		"xvii": "Cap. XVII - Malformações congênitas, deformidades e anomalias cromossômicas",
+		"xviii": "Cap. XVIII - Sintomas, sinais e achados anormais de exames clínicos e de laboratório, não classificados em outra parte",
+		"xix": "Cap. XIX - Lesões, envenenamentos e algumas outras consequências de causas externas",
+		"xx": "Cap. XX - Causas externas de morbidade e de mortalidade",
+		"xxi": "Cap. XXI - Fatores que influenciam o estado de saúde e o contato com os serviços de saúde",
+		"xxii": "Cap. XXII - Códigos para propósitos especiais",
+		"other": "Outros"
+	},
+	"DiagnosticsicdPanel": {
+		"code": "ICD10",
+		"name": "Diagnóstico",
+		"principal": "Principal",
+		"secundary": "Secundário",
+		"total": "Total",
+		"titlei": "Cap. I - Algumas doenças infecciosas e parasitárias",
+		"titleii": "Cap. II - Neoplasmas (tumores)",
+		"titleiii": "Cap. III - Doenças do sangue e dos órgãos hematopoéticos e alguns transtornos imunitários",
+		"titleiv": "Cap. IV - Doenças endócrinas, nutricionais e metabólicas",
+		"titlev": "Cap. V - Transtornos mentais e comportamentais",
+		"titlevi": "Cap. VI - Doenças do sistema nervoso",
+		"titlevii": "Cap. VII - Doenças do olho e anexos",
+		"titleviii": "Cap. VIII - Doenças do ouvido e da apófise mastoide",
+		"titleix": "Cap. IX - Doenças do aparelho circulatório",
+		"titlex": "Cap. X - Doenças do aparelho respiratório",
+		"titlexi": "Cap. XI - Doenças do aparelho digestivo",
+		"titlexii": "Cap. XII - Doenças da pele e do tecido subcutâneo",
+		"titlexiii": "Cap. XIII - Doenças do sistema osteomuscular e do tecido conjuntivo",
+		"titlexiv": "Cap. XIV - Doenças do aparelho geniturinário",
+		"titlexv": "Cap. XV - Gravidez, parto e puerpério",
+		"titlexvi": "Cap. XVI - Algumas afecções originadas no período perinatal",
+		"titlexvii": "Cap. XVII - Malformações congênitas, deformidades e anomalias cromossômicas",
+		"titlexviii": "Cap. XVIII - Sintomas, sinais e achados anormais de exames clínicos e de laboratório, não classificados em outra parte",
+		"titlexix": "Cap. XIX - Lesões, envenenamentos e algumas outras consequências de causas externas",
+		"titlexx": "Cap. XX - Causas externas de morbidade e de mortalidade",
+		"titlexxi": "Cap. XXI - Fatores que influenciam o estado de saúde e o contato com os serviços de saúde",
+		"titlexxii": "Cap. XXII - Códigos para propósitos especiais"
+	},
+	"PatientForm": {
+		"add_success": "Paciente adicionado com sucesso",
+		"add_error": "Erro ao adicionar paciente",
+		"edit_success": "Paciente editado com sucesso",
+		"edit_error": "Erro ao editar paciente",
+		"add_incomplete": "Informação do paciente incompleta",
+		"cancel_confirm": "Tem a certeza que pretende cancelar as alterações?",
+		"next": "Prómixo",
+		"back": "Anterior",
+		"submit": "Submeter",
+		"edit": "Editar",
+		"save": "Guardar",
+		"cancel": "Cancelar"
+	}
+}

@@ -1,0 +1,31 @@
+{
+    "LoginView": {
+        "signin" : "Sign in",
+        "username": "Username",
+        "password": "Password",
+        "remember": "Remember me",
+        "signin_button" : "SIGN IN"
+    },
+    "Sidebar": {
+        "logout" : "Logout",
+        "dashboard": "Dashboard",
+        "patients": "Patients",
+        "new_patient" : "New Patient"
+    },
+    "NewPatientView": {
+        "patient_info": "Patient info",
+        "autonomy": "Autonomy",
+        "hospitalization": "Hospitalization",
+        "diagnostics": "Diagnostics",
+        "comorbility": "Charlson's Comorbility",
+        "avc": "AVC",
+        "pneumonia": "Pneumonia",
+        "infections": "Infections",
+        "complications": "Complications",
+        "cardiac_insufficiency": "Cardiac insufficiency",
+        "vni": "VNI",
+        "old": "OLD",
+        "procedures": "Procedures",
+        "final_notes": "Final notes"
+    }
+}
